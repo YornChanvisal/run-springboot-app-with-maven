@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083" # Map the port from the container to the host
+    volumes:
+      - "./target:/app" # Assuming your application uses any form of persistent storage
+    restart: on-failure
