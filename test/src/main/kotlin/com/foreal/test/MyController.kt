@@ -16,23 +16,4 @@ class MyController {
     fun follow(): String {
         return "Why are you following me here? TwT"
     }
-
-//    fun main(args: Array<String>) {
-//        val timeSource = TimeSource.Monotonic
-//
-//        val arrayMark1 = timeSource.markNow()
-//        val array = arrayOf('1', '2')
-//        array.set(0, '3');
-//        array.set(0, '4');
-//        array.set(0, '5');
-//        array.set(0, '6');
-//        array.set(0, '7');
-//
-//        val arrayMark2 = timeSource.markNow()
-//        val arrayTimeExecution = arrayMark2 - arrayMark1
-//        println("Array timing: $arrayTimeExecution")
-//
-//        val linkedListMark1 = timeSource.markNow()
-//    }
-
 }
